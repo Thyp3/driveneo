@@ -11,7 +11,7 @@
         <element label="Departure location" max_length="40" name="u_departure_location" type="string"/>
         <element label="Seats booked" max_length="40" name="u_seats_booked" type="integer"/>
         <element label="Seats offered" max_length="40" name="u_seats_offered" type="integer"/>
-        <element label="User" max_length="32" name="u_user" reference="sys_user" type="reference"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Driver" max_length="32" name="u_user" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <index name="index">
             <element name="u_user"/>
         </index>
