@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_departure</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>DatesCheckDeparture</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+	
+	if (isLoading || newValue == '') {
+		
+		return;
+		
+	}
+	
+	
+	var ga = new GlideAjax('DateValidation');
+	
+	ga.addParam('sysparm_name','validateDate3');
+	
+	ga.addParam('sysparm_end_date',g_form.getValue('u_departure'));
+	
+	ga.getXML(ProcessResult);
+	
+	
+	
+	function ProcessResult(response) {
+		
+		var answer1 = response.responseXML.documentElement.getAttribute("answer");
+		alert(answer1);
+		if (answer1 == 1) {
+			
+			g_form.clearValue('u_departure');
+			g_form.showFieldMsg('u_departure','Departure time should be in the future.', 'error', true);
+			
+			
+		}
+		
+	}
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-06 13:18:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ef107c50db9aa30033deeb41ca9619e0</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>DatesCheckDeparture</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Driveneo" source="x_280819_driveneo">2c3f2f8cdb96a30033deeb41ca961900</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Driveneo">2c3f2f8cdb96a30033deeb41ca961900</sys_scope>
+        <sys_update_name>sys_script_client_ef107c50db9aa30033deeb41ca9619e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-06 15:35:38</sys_updated_on>
+        <table>x_280819_driveneo_rides</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

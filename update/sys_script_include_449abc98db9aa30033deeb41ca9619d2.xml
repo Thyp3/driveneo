@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_280819_driveneo.DateValidation</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>DateValidation</name>
+        <script><![CDATA[var DateValidation = Class.create();
+
+DateValidation.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	
+	
+	validateDate3: function() {
+		
+		
+		
+		
+		//var gdt = new GlideDateTime(this.getParameter('sysparm_end_date'));
+		var gdt1 = new GlideDateTime();
+		//var dur = new GlideDuration();
+		var jetzt = gdt1.getDisplayValue();
+		// var answer = 1;
+		var ActualEndDate = this.getParameter('sysparm_end_date');
+		//dur = GlideDateTime.subtract(gdt1, gdt);
+		//dur = GlideDateTime.subtract(gdt,ActualEndDate);
+		if (jetzt<ActualEndDate){
+			
+			return 0;}
+			else {
+				return 1;
+			}
+			//return gs.print(dur.getDisplayValue()) ;
+			//return gs.dateDiff(gs.nowDateTime(),ActualEndDate, true)/86400;
+			//if (gs.dateDiff(gdt,ActualEndDate,true) < 0 ){
+				/*	return 0;
+			}
+			else return 1;*/
+			},
+		
+		type: 'DateValidation'
+		
+	});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-06 14:09:10</sys_created_on>
+        <sys_id>449abc98db9aa30033deeb41ca9619d2</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>DateValidation</sys_name>
+        <sys_package display_value="Driveneo" source="x_280819_driveneo">2c3f2f8cdb96a30033deeb41ca961900</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Driveneo">2c3f2f8cdb96a30033deeb41ca961900</sys_scope>
+        <sys_update_name>sys_script_include_449abc98db9aa30033deeb41ca9619d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-06 15:30:03</sys_updated_on>
+    </sys_script_include>
+</record_update>
