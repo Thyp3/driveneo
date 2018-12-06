@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-06 10:03:21</sys_created_on>
-        <sys_id>b61ae4583792230085e6097973990e99</sys_id>
+        <sys_id>045f6050db9aa30033deeb41ca9619db</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Area</sys_name>
         <sys_package display_value="Driveneo" source="x_280819_driveneo">2c3f2f8cdb96a30033deeb41ca961900</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Driveneo">2c3f2f8cdb96a30033deeb41ca961900</sys_scope>
         <sys_update_name>sys_dictionary_x_280819_driveneo_rides_u_area</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-12-06 12:39:55</sys_updated_on>
+        <sys_updated_on>2018-12-06 13:02:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
