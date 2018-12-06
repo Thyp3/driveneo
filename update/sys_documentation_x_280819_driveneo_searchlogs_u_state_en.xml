@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_state" label="State" language="en" table="x_280819_driveneo_searchlogs">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <help/>
+            <hint/>
+            <label>State</label>
+            <language>en</language>
+            <name>x_280819_driveneo_searchlogs</name>
+            <plural>States</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-06 11:26:54</sys_created_on>
+            <sys_id>b569d09c3752230085e6097973990e5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>State</sys_name>
+            <sys_package display_value="Driveneo" source="x_280819_driveneo">2c3f2f8cdb96a30033deeb41ca961900</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Driveneo">2c3f2f8cdb96a30033deeb41ca961900</sys_scope>
+            <sys_update_name>sys_documentation_x_280819_driveneo_searchlogs_u_state_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-06 11:26:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
