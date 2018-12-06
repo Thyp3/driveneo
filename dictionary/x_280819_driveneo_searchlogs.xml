@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="searchLogs" max_length="40" name="x_280819_driveneo_searchlogs" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="How many :" max_length="40" name="u_howmany" type="integer">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="How many people :" max_length="40" name="u_howmany" type="integer">
             <choice>
                 <element inactive_on_update="false" label="1" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="2" sequence="1" value="2"/>

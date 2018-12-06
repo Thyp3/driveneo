@@ -14,7 +14,7 @@
         <choice>3</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>How many :</column_label>
+        <column_label>How many people :</column_label>
         <comments/>
         <create_roles/>
         <default_value>1</default_value>
@@ -54,14 +54,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-06 11:26:54</sys_created_on>
         <sys_id>28169c143752230085e6097973990e27</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>How many :</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>How many people :</sys_name>
         <sys_package display_value="Driveneo" source="x_280819_driveneo">2c3f2f8cdb96a30033deeb41ca961900</sys_package>
         <sys_policy/>
         <sys_scope display_value="Driveneo">2c3f2f8cdb96a30033deeb41ca961900</sys_scope>
         <sys_update_name>sys_dictionary_x_280819_driveneo_searchlogs_u_howmany</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-06 12:37:06</sys_updated_on>
+        <sys_updated_on>2018-12-06 12:50:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
