@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="rides" max_length="40" name="x_280819_driveneo_rides" type="collection">
-        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Additional comments" max_length="40" name="u_additional_comments" type="string"/>
         <element choice="1" label="Area" max_length="40" name="u_area" type="choice">
             <choice/>
