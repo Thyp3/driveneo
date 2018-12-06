@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Seats offered</column_label>
+        <column_label>Seats offered :</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-12-06 10:03:21</sys_created_on>
-        <sys_id>885f6050db9aa30033deeb41ca9619e1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Seats offered</sys_name>
+        <sys_id>850379dc3756230085e6097973990e01</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Seats offered :</sys_name>
         <sys_package display_value="Driveneo" source="x_280819_driveneo">2c3f2f8cdb96a30033deeb41ca961900</sys_package>
         <sys_policy/>
         <sys_scope display_value="Driveneo">2c3f2f8cdb96a30033deeb41ca961900</sys_scope>
         <sys_update_name>sys_dictionary_x_280819_driveneo_rides_u_seats_offered</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-06 13:02:51</sys_updated_on>
+        <sys_updated_on>2018-12-06 18:49:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

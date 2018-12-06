@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="rides" max_length="40" name="x_280819_driveneo_rides" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Additional comments" mandatory="true" max_length="40" name="u_additional_comments" type="string"/>
+        <element label="Additional comments" max_length="40" name="u_additional_comments" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Area" max_length="40" name="u_area" type="choice">
             <choice/>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Arrival" max_length="40" name="u_arrival" type="glide_date_time"/>
-        <element label="Arrival location" mandatory="true" max_length="40" name="u_arrival_location" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Departure" mandatory="true" max_length="40" name="u_departure" type="glide_date_time"/>
-        <element label="Departure location" mandatory="true" max_length="40" name="u_departure_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Arrival time :" max_length="40" name="u_arrival" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Departure time :" mandatory="true" max_length="40" name="u_departure" type="glide_date_time"/>
+        <element label="From :" mandatory="true" max_length="40" name="u_departure_location" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Seats booked" max_length="40" name="u_seats_booked" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Seats offered" mandatory="true" max_length="40" name="u_seats_offered" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;// Add your code here&#10;&#9;return (current.u_seats_offered - current.u_seats_booked);    &#10;&#9;// return the calculated value&#10;&#10;})(current);" label="Seats free :" max_length="40" name="u_seats_free" read_only="true" type="integer" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Seats offered :" mandatory="true" max_length="40" name="u_seats_offered" type="integer"/>
+        <element label="To :" mandatory="true" max_length="255" name="u_to" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Driver" mandatory="true" max_length="32" name="u_user" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <index name="index">
             <element name="u_user"/>
