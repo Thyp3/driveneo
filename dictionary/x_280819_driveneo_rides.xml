@@ -11,6 +11,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Departure time :" mandatory="true" max_length="40" name="u_departure" type="glide_date_time"/>
         <element label="From :" mandatory="true" max_length="40" name="u_departure_location" type="string"/>
+        <element label="Passengers :" max_length="255" name="u_passengers" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Seats booked" max_length="40" name="u_seats_booked" type="integer"/>
         <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;// Add your code here&#10;&#9;return (current.u_seats_offered - current.u_seats_booked);    &#10;&#9;// return the calculated value&#10;&#10;})(current);" label="Seats free :" max_length="40" name="u_seats_free" read_only="true" type="integer" virtual="true"/>
         <element attributes="edge_encryption_enabled=true" label="Seats offered :" mandatory="true" max_length="40" name="u_seats_offered" type="integer"/>
