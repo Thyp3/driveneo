@@ -11,9 +11,17 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="State :" max_length="40" name="u_state" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="active" sequence="0" value="active"/>
+                <element inactive_on_update="false" label="success" sequence="1" value="success"/>
+                <element inactive_on_update="false" label="failed" sequence="2" value="failed"/>
+            </choice>
         </element>
         <element label="To :" mandatory="true" max_length="255" name="u_to" type="string_full_utf8"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="bdcb83a85f220100a9ad2572f2b4773d" label="User :" max_length="32" name="u_user" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element attributes="edge_encryption_enabled=true" label="When :" mandatory="true" max_length="40" name="u_when" type="glide_date_time"/>
+        <index name="index">
+            <element name="u_user"/>
+        </index>
     </element>
 </database>
