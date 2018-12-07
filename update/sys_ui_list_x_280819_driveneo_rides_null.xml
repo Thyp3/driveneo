@@ -2,93 +2,138 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_280819_driveneo_rides" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_to</element>
-            <list_id display_value="x_280819_driveneo_rides" element="NULL" name="x_280819_driveneo_rides" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">233f5210371a230085e6097973990ed2</list_id>
+            <element>u_user</element>
+            <list_id display_value="x_280819_driveneo_rides" element="NULL" name="x_280819_driveneo_rides" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">85068560db52230033deeb41ca9619a4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 21:11:40</sys_created_on>
-            <sys_id>e73f5210371a230085e6097973990ed2</sys_id>
+            <sys_created_on>2018-12-07 09:20:18</sys_created_on>
+            <sys_id>c1068560db52230033deeb41ca9619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 21:11:40</sys_updated_on>
+            <sys_updated_on>2018-12-07 09:20:18</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_departure</element>
-            <list_id display_value="x_280819_driveneo_rides" element="NULL" name="x_280819_driveneo_rides" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">233f5210371a230085e6097973990ed2</list_id>
+            <element>u_departure_location</element>
+            <list_id display_value="x_280819_driveneo_rides" element="NULL" name="x_280819_driveneo_rides" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">85068560db52230033deeb41ca9619a4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 21:11:40</sys_created_on>
-            <sys_id>6b3f5210371a230085e6097973990ed2</sys_id>
+            <sys_created_on>2018-12-07 09:20:18</sys_created_on>
+            <sys_id>89068560db52230033deeb41ca9619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 21:11:40</sys_updated_on>
+            <sys_updated_on>2018-12-07 09:20:18</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_departure_location</element>
-            <list_id display_value="x_280819_driveneo_rides" element="NULL" name="x_280819_driveneo_rides" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">233f5210371a230085e6097973990ed2</list_id>
+            <element>u_to</element>
+            <list_id display_value="x_280819_driveneo_rides" element="NULL" name="x_280819_driveneo_rides" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">85068560db52230033deeb41ca9619a4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 21:11:40</sys_created_on>
-            <sys_id>eb3f5210371a230085e6097973990ed2</sys_id>
+            <sys_created_on>2018-12-07 09:20:18</sys_created_on>
+            <sys_id>0d068560db52230033deeb41ca9619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 21:11:40</sys_updated_on>
+            <sys_updated_on>2018-12-07 09:20:18</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_seats_free</element>
-            <list_id display_value="x_280819_driveneo_rides" element="NULL" name="x_280819_driveneo_rides" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">233f5210371a230085e6097973990ed2</list_id>
+            <element>u_departure</element>
+            <list_id display_value="x_280819_driveneo_rides" element="NULL" name="x_280819_driveneo_rides" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">85068560db52230033deeb41ca9619a4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 21:11:40</sys_created_on>
-            <sys_id>6f3f5210371a230085e6097973990ed2</sys_id>
+            <sys_created_on>2018-12-07 09:20:18</sys_created_on>
+            <sys_id>8d068560db52230033deeb41ca9619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 21:11:40</sys_updated_on>
+            <sys_updated_on>2018-12-07 09:20:18</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_user</element>
-            <list_id display_value="x_280819_driveneo_rides" element="NULL" name="x_280819_driveneo_rides" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">233f5210371a230085e6097973990ed2</list_id>
+            <element>u_arrival</element>
+            <list_id display_value="x_280819_driveneo_rides" element="NULL" name="x_280819_driveneo_rides" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">85068560db52230033deeb41ca9619a4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 21:11:40</sys_created_on>
-            <sys_id>ef3f5210371a230085e6097973990ed2</sys_id>
+            <sys_created_on>2018-12-07 09:20:18</sys_created_on>
+            <sys_id>01068560db52230033deeb41ca9619a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 21:11:40</sys_updated_on>
+            <sys_updated_on>2018-12-07 09:20:18</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_additional_comments</element>
-            <list_id display_value="x_280819_driveneo_rides" element="NULL" name="x_280819_driveneo_rides" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">233f5210371a230085e6097973990ed2</list_id>
+            <element>u_seats_offered</element>
+            <list_id display_value="x_280819_driveneo_rides" element="NULL" name="x_280819_driveneo_rides" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">85068560db52230033deeb41ca9619a4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 21:11:40</sys_created_on>
-            <sys_id>633f5210371a230085e6097973990ed3</sys_id>
+            <sys_created_on>2018-12-07 09:20:18</sys_created_on>
+            <sys_id>81068560db52230033deeb41ca9619a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 21:11:40</sys_updated_on>
+            <sys_updated_on>2018-12-07 09:20:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_seats_booked</element>
+            <list_id display_value="x_280819_driveneo_rides" element="NULL" name="x_280819_driveneo_rides" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">85068560db52230033deeb41ca9619a4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-07 09:20:18</sys_created_on>
+            <sys_id>05068560db52230033deeb41ca9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-07 09:20:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_passengers</element>
+            <list_id display_value="x_280819_driveneo_rides" element="NULL" name="x_280819_driveneo_rides" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">85068560db52230033deeb41ca9619a4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-07 09:20:18</sys_created_on>
+            <sys_id>85068560db52230033deeb41ca9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-07 09:20:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_additional_comments</element>
+            <list_id display_value="x_280819_driveneo_rides" element="NULL" name="x_280819_driveneo_rides" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">85068560db52230033deeb41ca9619a4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-07 09:20:18</sys_created_on>
+            <sys_id>09068560db52230033deeb41ca9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-07 09:20:18</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -102,10 +147,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-06 21:11:40</sys_created_on>
+            <sys_created_on>2018-12-07 09:20:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>233f5210371a230085e6097973990ed2</sys_id>
+            <sys_id>85068560db52230033deeb41ca9619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_280819_driveneo_rides</sys_name>
             <sys_package display_value="Driveneo" source="x_280819_driveneo">2c3f2f8cdb96a30033deeb41ca961900</sys_package>
@@ -113,7 +158,7 @@
             <sys_scope display_value="Driveneo">2c3f2f8cdb96a30033deeb41ca961900</sys_scope>
             <sys_update_name>sys_ui_list_x_280819_driveneo_rides_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-06 21:11:40</sys_updated_on>
+            <sys_updated_on>2018-12-07 09:20:18</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
