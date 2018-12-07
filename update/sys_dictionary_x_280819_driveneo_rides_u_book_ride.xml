@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_state" table="x_280819_driveneo_searchlogs">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_book_ride" table="x_280819_driveneo_rides">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -11,10 +11,10 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>1</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>State :</column_label>
+        <column_label>Book ride:</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,20 +22,20 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>false</display>
+        <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_state</element>
+        <element>u_book_ride</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_280819_driveneo_searchlogs</name>
+        <max_length>8000</max_length>
+        <name>x_280819_driveneo_rides</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-06 11:26:53</sys_created_on>
-        <sys_id>550379dc3756230085e6097973990e19</sys_id>
+        <sys_created_on>2018-12-06 23:02:52</sys_created_on>
+        <sys_id>7ef7be9c371a230085e6097973990eca</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>State :</sys_name>
+        <sys_name>Book ride:</sys_name>
         <sys_package display_value="Driveneo" source="x_280819_driveneo">2c3f2f8cdb96a30033deeb41ca961900</sys_package>
         <sys_policy/>
         <sys_scope display_value="Driveneo">2c3f2f8cdb96a30033deeb41ca961900</sys_scope>
-        <sys_update_name>sys_dictionary_x_280819_driveneo_searchlogs_u_state</sys_update_name>
+        <sys_update_name>sys_dictionary_x_280819_driveneo_rides_u_book_ride</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-06 22:46:38</sys_updated_on>
+        <sys_updated_on>2018-12-06 23:15:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

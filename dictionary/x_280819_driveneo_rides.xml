@@ -6,6 +6,9 @@
             <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Arrival time :" max_length="40" name="u_arrival" type="glide_date_time"/>
+        <element choice="3" display="true" label="Book ride:" max_length="8000" name="u_book_ride" type="choice">
+            <choice/>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Departure time :" mandatory="true" max_length="40" name="u_departure" type="glide_date_time"/>
         <element label="From :" mandatory="true" max_length="40" name="u_departure_location" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Seats booked" max_length="40" name="u_seats_booked" type="integer"/>

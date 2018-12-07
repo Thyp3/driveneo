@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_book_ride" label="Book ride:" language="en" table="x_280819_driveneo_rides">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_book_ride</element>
+            <help/>
+            <hint/>
+            <label>Book ride:</label>
+            <language>en</language>
+            <name>x_280819_driveneo_rides</name>
+            <plural>Book ride:s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-06 23:02:53</sys_created_on>
+            <sys_id>b0b8b210375a230085e6097973990e54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Book ride:</sys_name>
+            <sys_package display_value="Driveneo" source="x_280819_driveneo">2c3f2f8cdb96a30033deeb41ca961900</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Driveneo">2c3f2f8cdb96a30033deeb41ca961900</sys_scope>
+            <sys_update_name>sys_documentation_x_280819_driveneo_rides_u_book_ride_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-06 23:02:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
